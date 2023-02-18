@@ -1,0 +1,42 @@
+.slide-container {
+  width: 100%;
+  margin: 1.2rem auto;
+  padding: 5rem;
+}
+
+.slide-container img {
+  float: left;
+  margin-right: 3rem;
+}
+
+.slide-text {
+    margin: 2rem;
+    padding: 5rem;
+}
+
+.slide-container h3 {
+  margin: 0.2rem;
+  padding: 0.2rem;
+  background-color: rgb(251, 0, 0);
+  display: inline-flex;
+}
+
+.slide-container h1 {
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.slide-container p {
+    font-size: 1.2rem;
+    max-width: 80%;
+    line-height: 2rem;
+    color: rgb(139,139,139);
+}
+
+.slide-btn {
+    background-color: inherit;
+    color: rgb(251, 0, 0);
+    border: 2px solid rgb(251, 0, 0);
+    padding: 1rem 2rem;
+    margin: 1rem auto;
+}

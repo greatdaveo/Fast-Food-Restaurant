@@ -1,5 +1,6 @@
 import React from "react";
 import BurgerHero from "../components/BurgerHero";
+import BurgerSlider from "../components/BurgerSlider";
 import BurgerTypes from "../components/BurgerTypes";
 import Hero from "../components/Hero";
 import NavBar from "../components/NavBar";
@@ -17,6 +18,7 @@ export default function Home() {
       <BurgerHero />
       <BurgerTypes />
       <OrderBurger />
+      <BurgerSlider/>
 
       <div>
         <h1>Home Page</h1>
