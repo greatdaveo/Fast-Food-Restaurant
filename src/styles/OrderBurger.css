@@ -1,0 +1,99 @@
+.order-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.order-text {
+  /* background-color: green; */
+  padding: 4rem;
+}
+
+.order-text h5 {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  display: inline-flex;
+  padding: 0.3rem 0.6rem;
+  margin: 1rem;
+  font-weight: 1000;
+  font-size: 1rem;
+}
+
+.order-text h1 {
+  font-size: 3rem;
+  margin: 1rem;
+  margin-top: 0px;
+  color: white;
+}
+
+.order-text p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 1rem;
+  color: rgb(171, 162, 160);
+}
+
+.order-btn {
+  border: 2px solid white;
+  background-color: inherit;
+  color: white;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  margin-bottom: 0rem;
+}
+
+.order-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+/* For the Background Image */
+.order1-card {
+  background-image: linear-gradient(rgb(58, 54, 54), hsla(0, 4%, 14%, 0.1)),
+    url("../assets/burger_order1.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* height: 100%; */
+}
+
+.order2-card {
+  background-image: linear-gradient(rgb(58, 54, 54), hsla(0, 4%, 14%, 0.1)),
+    url("../assets/burger_order2.jfif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* height: 100%; */
+}
+
+.order3-card {
+  background-image: linear-gradient(rgb(58, 54, 54), hsla(0, 4%, 14%, 0.1)), url("../assets/burger_order3.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* height: 100%; */
+}
+
+.order4-card {
+  background-image: linear-gradient(rgb(58, 54, 54), hsla(0, 4%, 14%, 0.1)), url("../assets/Burger_order4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* height: 100%; */
+}
+
+.order5-card {
+  background-image: linear-gradient(rgb(58, 54, 54), hsla(0, 4%, 14%, 0.1)), url("../assets/burger_order5.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* height: 100%; */
+
+}.order6-card {
+  background-image: linear-gradient(rgb(58, 54, 54), hsla(0, 4%, 14%, 0.1)), url("../assets/burger_order6.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* height: 100%; */
+}
