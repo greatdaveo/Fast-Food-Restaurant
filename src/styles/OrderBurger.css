@@ -58,6 +58,12 @@
   /* height: 100%; */
 }
 
+.order1-span,
+.order4-span {
+  color: rgb(171, 162, 160);
+  margin-left: 1rem;
+}
+
 .order2-card {
   background-image: linear-gradient(rgb(58, 54, 54), hsla(0, 4%, 14%, 0.1)),
     url("../assets/burger_order2.jfif");
@@ -68,7 +74,8 @@
 }
 
 .order3-card {
-  background-image: linear-gradient(rgb(58, 54, 54), hsla(0, 4%, 14%, 0.1)), url("../assets/burger_order3.webp");
+  background-image: linear-gradient(rgb(58, 54, 54), hsla(0, 4%, 14%, 0.1)),
+    url("../assets/burger_order3.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -76,7 +83,8 @@
 }
 
 .order4-card {
-  background-image: linear-gradient(rgb(58, 54, 54), hsla(0, 4%, 14%, 0.1)), url("../assets/Burger_order4.jpg");
+  background-image: linear-gradient(rgb(58, 54, 54), hsla(0, 4%, 14%, 0.1)),
+    url("../assets/Burger_order4.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -84,14 +92,21 @@
 }
 
 .order5-card {
-  background-image: linear-gradient(rgb(58, 54, 54), hsla(0, 4%, 14%, 0.1)), url("../assets/burger_order5.jpg");
+  background-image: linear-gradient(rgb(58, 54, 54), hsla(0, 4%, 14%, 0.1)),
+    url("../assets/burger_order5.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   /* height: 100%; */
+}
 
-}.order6-card {
-  background-image: linear-gradient(rgb(58, 54, 54), hsla(0, 4%, 14%, 0.1)), url("../assets/burger_order6.jpg");
+.order6-span {
+  color: rgb(255, 0, 0);
+}
+
+.order6-card {
+  background-image: linear-gradient(rgb(58, 54, 54), hsla(0, 4%, 14%, 0.1)),
+    url("../assets/burger_order6.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

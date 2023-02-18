@@ -14,7 +14,10 @@ export default function OrderBurger() {
           else.
         </p>
         <h1>
-          $2.49 <span>$2.99</span>
+          $2.49
+          <span className="order1-span">
+            <s>$2.99</s>
+          </span>
         </h1>
         <button className="order-btn">ORDER NOW</button>
       </div>
@@ -57,7 +60,10 @@ export default function OrderBurger() {
           hamburger, incorporating ingredients like pimento cheese and sesame.
         </p>
         <h1>
-          $4.49 <span>$5.99</span>
+          $4.49
+          <span className="order4-span">
+            <s>$5.99</s>
+          </span>
         </h1>
         <button className="order-btn">ORDER NOW</button>
       </div>
@@ -86,7 +92,9 @@ export default function OrderBurger() {
           and serves them on homemade herb-butter rolls is the best version we
           know.
         </p>
-        <h1>$5.99</h1>
+        <h1>
+          <span className="order6-span">$5.99</span>
+        </h1>
         <button className="order-btn">ORDER NOW</button>
       </div>
     </div>
