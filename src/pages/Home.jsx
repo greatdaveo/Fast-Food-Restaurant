@@ -2,6 +2,7 @@ import React from "react";
 import BurgerHero from "../components/BurgerHero";
 import BurgerSlider from "../components/BurgerSlider";
 import BurgerTypes from "../components/BurgerTypes";
+import Contact from "../components/Contact";
 import Hero from "../components/Hero";
 import NavBar from "../components/NavBar";
 import OrderBurger from "../components/OrderBurger";
@@ -18,7 +19,8 @@ export default function Home() {
       <BurgerHero />
       <BurgerTypes />
       <OrderBurger />
-      <BurgerSlider/>
+      <BurgerSlider />
+      <Contact/>
 
       <div>
         <h1>Home Page</h1>
