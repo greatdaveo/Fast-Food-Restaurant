@@ -3,6 +3,7 @@ import BurgerHero from "../components/BurgerHero";
 import BurgerTypes from "../components/BurgerTypes";
 import Hero from "../components/Hero";
 import NavBar from "../components/NavBar";
+import OrderBurger from "../components/OrderBurger";
 import "../styles/Home.css";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
 
       <BurgerHero />
       <BurgerTypes />
+      <OrderBurger />
 
       <div>
         <h1>Home Page</h1>

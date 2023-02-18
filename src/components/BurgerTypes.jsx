@@ -8,11 +8,11 @@ import "..//styles/BurgerTypes.css";
 
 export default function BurgerTypes() {
   return (
-    <div className="burger-types-container">
+    <div className="burger-container">
       <div className="card-container">
         <div className="burger-types-header">
           <h3>TASTY & CRUNCHY</h3>
-          <h2>Choose & enjoy</h2>
+          <h1>Choose & enjoy</h1>
           <p>Inspired by recipes and creations of world’s best chefs</p>
         </div>
 
@@ -52,8 +52,10 @@ export default function BurgerTypes() {
             <h3>GREAT DESSERTS</h3>
             <p>Chickweed okra pea winter purslane coriander yarrow sweet.</p>
           </div>
+        </div>
 
-          <button>VIEW OUR FULL MENU</button>
+        <div className="card-btn">
+          <button className="burger-types-btn">VIEW OUR FULL MENU</button>
         </div>
       </div>
     </div>
