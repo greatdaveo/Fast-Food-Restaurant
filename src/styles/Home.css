@@ -1,0 +1,9 @@
+.hero-container {
+  background-image: 
+    url("../assets/background-burger.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-position-x: 67%; */
+}

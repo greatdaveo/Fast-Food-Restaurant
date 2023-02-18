@@ -1,0 +1,24 @@
+.burger-hero-container {
+  display: flex;
+  background-color: rgb(255, 0, 0);
+  padding: 2rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.burger-card {
+  margin: 1rem;
+}
+
+.burger-card img {
+  margin: 1.5rem;
+}
+
+.burger-card h3 {
+  color: white;
+}
+
+.burger-card p {
+  color: rgb(255, 113, 113);
+  font-weight: 550;
+}
