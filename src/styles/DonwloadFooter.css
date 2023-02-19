@@ -1,0 +1,26 @@
+.download-footer {
+  background-color: rgb(251, 0, 0);
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.download-footer h1 {
+  font-size: 2.5rem;
+  color: white;
+  margin-left: 4.5rem;
+}
+
+.download-btn {
+  padding: 1rem;
+  background-color: inherit;
+  color: white;
+  border: 2px solid white;
+  padding: 1rem 2rem;
+  margin-right: 10rem;
+}
+
+.download-btn:hover {
+  background-color: white;
+  color: black;
+}
