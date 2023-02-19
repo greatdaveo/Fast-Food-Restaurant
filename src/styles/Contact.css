@@ -1,0 +1,64 @@
+.contact-container {
+  display: flex;
+}
+
+.contact-text-container {
+  background-color: rgb(35, 35, 35);
+  padding: 5rem;
+  width: 40%;
+}
+
+.date {
+}
+
+.contact-text-container h5 {
+  background-color: rgb(251, 0, 0);
+  color: white;
+  display: inline-flex;
+  padding: 0.2rem 0.5rem;
+  margin: 0rem 2rem;
+  font-weight: 600;
+}
+
+.contact-text-container h3 {
+  color: white;
+  font-size: 2.5rem;
+  margin: 0.5rem 2rem;
+}
+
+.contact-time,
+.contact-location {
+  display: flex;
+  align-items: center;
+}
+
+.contact-time a,
+.contact-location a {
+  float: left;
+  font-size: 4.5rem;
+  margin: 0.5rem 2rem;
+  color: rgb(251, 0, 0);
+}
+
+.contact-time .date,
+.contact-location .address {
+  font-size: 1.2rem;
+}
+
+.contact-time .date p,
+.contact-location .address p {
+  margin: 0.5rem -1rem;
+  color: rgb(163, 163, 163);
+}
+
+.contact-icons ul {
+  display: flex;
+  margin: 0.5rem 2rem;
+}
+
+.contact-icons li {
+  list-style: none;
+  margin: 0.5rem 0.3rem;
+  padding: 0.5rem 0.7rem;
+  background-color: white;
+}
