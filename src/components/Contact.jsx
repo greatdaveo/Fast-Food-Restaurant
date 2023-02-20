@@ -57,7 +57,7 @@ export default function Contact() {
         </div>
       </div>
 
-      <TheLocation />
+      {/* <TheLocation /> */}
     </div>
   );
 }
