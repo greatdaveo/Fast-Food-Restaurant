@@ -23,3 +23,7 @@ footer p {
 .footer-links li a {
   color: rgb(35, 35, 35);
 }
+
+.footer-links li a:hover {
+  color: rgb(251, 0, 0);
+}

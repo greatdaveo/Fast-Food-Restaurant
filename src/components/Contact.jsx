@@ -5,7 +5,7 @@ import { FiFacebook } from "react-icons/fi";
 import { FiTwitter } from "react-icons/fi";
 import { FiInstagram } from "react-icons/fi";
 import { FaTripadvisor } from "react-icons/fa";
-import GoogleMap from "./GoogleMap";
+import TheLocation from "./TheLocation";
 
 export default function Contact() {
   return (
@@ -57,7 +57,7 @@ export default function Contact() {
         </div>
       </div>
 
-      <GoogleMap />
+      <TheLocation />
     </div>
   );
 }
