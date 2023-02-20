@@ -5,6 +5,12 @@ nav {
   margin-bottom: 7rem;
 }
 
+
+
+nav a:hover {
+  color: rgb(251, 0, 0);
+}
+
 .Logo {
   margin-left: 7rem;
   margin-right: 1rem;
@@ -21,7 +27,7 @@ nav {
 }
 
 a {
-    color: white;
+  color: white;
 }
 
 .social-nav-links ul {
@@ -34,4 +40,52 @@ a {
 .social-nav-links li {
   list-style: none;
   margin: 0.5rem;
+}
+
+/* For the drop down menu */
+.drop-menu {
+  display: none;
+}
+
+.menu:hover .drop-menu {
+  display: block;
+  position: absolute;
+  background-color: white;
+  padding: 0rem 1rem;
+  /* margin-top: 2.3rem; */
+}
+
+.drop-menu li {
+  text-align: start;
+  margin: 1rem 1rem;
+}
+
+.drop-menu li a {
+  color: rgb(138, 120, 113);
+  text-align: start;
+  padding: 0.6rem;
+  margin: 0rem 4rem 0rem -1.6rem;
+  max-width: 5rem;
+}
+
+.drop-menu li a:hover {
+  color: rgb(251, 0, 0);
+}
+
+.drop-menu hr {
+  color: rgb(138, 120, 113);
+}
+
+/* For second menu */
+
+.drop-menu .sub-menu2 {
+  display: none;
+}
+
+.hover-menu:hover .sub-menu2 {
+  position: absolute;
+  display: block;
+  margin-left: 13rem;
+  background-color: white;
+  padding: 0rem 1rem;
 }
